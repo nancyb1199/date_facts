@@ -7,7 +7,7 @@ let now = moment();
 console.log(now.format('"dddd, MMMM Do YYYY, h:mm:ss a"'));
 
 // Calculate day of the day
-let day = moment().dayOfYear();
+let day = moment().format("DDDo");
 
 console.log(`It is the ${day} day of the year.`);
 
